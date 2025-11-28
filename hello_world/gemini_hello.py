@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-client = genai.Client(api_key="AIzaSyAI8khvbFa5bpc1uvROCIVZUiHHaAhOSeM")
+client = genai.Client(api_key="")
 
 
 response = client.models.generate_content(
